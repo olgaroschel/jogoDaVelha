@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Grandstander", "Comic Sans MS", cursive, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+hr {
+    font-weight: bold;
+    height: 3px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.board button {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 50px;
+    background-color: aliceblue;
+}
+
+
