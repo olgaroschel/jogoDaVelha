@@ -57,4 +57,9 @@ function check() {
             return;
         }
     }
+   if (selected.filter((item) => item).length === 9) {
+        alert("EMPATE");
+        init();
+        return
+    }
 }
